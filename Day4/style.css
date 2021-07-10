@@ -1,0 +1,114 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+.container{
+  border: 2px solid red;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border-width: 40px;
+  margin: auto;
+  position: relative;
+  box-shadow: 5px 10px #888888;
+}
+
+
+.container > * {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  height:  50%;
+  margin-left: -1px;
+  border: 2px solid #000;
+  transform-origin: bottom;
+}
+.twe{
+  font-size: 40px;
+  position: absolute;
+  top: 0px;
+  left: 102px;
+  border: none;
+} 
+.three{
+  font-size: 40px;
+  position: absolute;
+  top: 100px;
+  left: 230px;
+  border: none;
+}
+.six{
+  font-size: 40px;
+  position: absolute;
+  top: 210px;
+  left: 115px;
+  border: none;
+}
+.nine{
+  font-size: 40px;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  border: none;
+}
+
+.hour {
+  /* height: 30%; */
+  width: 5px;
+  height: 70px;
+  background-color: black;
+  position: absolute;
+}
+
+.min{
+  width: 2px;
+  height: 90px;
+  background-color: black;
+  position: absolute;
+  top: 36px;
+  left: 119px;
+  /* transform: rotate(180deg);  */
+}
+
+.sec {
+  border-color: #f00;
+  width: 2px;
+  height: 100px;
+  /* background-color: black; */
+  position: absolute;
+}
+.circle{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: rgb(9, 247, 215);
+  position: absolute;
+  top: 116px;
+  left: 117px;
+}
+.dot{
+  height:8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 119px;
+  left: 120px;
+}
+.txt{
+  border: none;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 50%;
+  left: 50%;
+  height:  10%;
+  top: 70%;
+  margin-left: -50px;
+  font-family: 'Fuggles', sans-serif;
+  /* text-shadow: 2px 2px #a0a0a0; */
+  font-size: 30px;
+  font-weight: 500;
+}
+.six:hover,.three:hover,.nine:hover,.twe:hover{
+  font-size: 50px;
+}
